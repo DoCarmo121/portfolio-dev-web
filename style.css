@@ -265,8 +265,23 @@ ul {
     gap: 60px;
 }
 
-.textos-sobre {
+.imagem-sobre {
     flex: 1; 
+}
+
+.imagem-sobre img {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border-color);
+    object-fit: cover; 
+}
+
+.info-sobre {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 32px; 
 }
 
 .textos-sobre p {
@@ -275,7 +290,6 @@ ul {
 }
 
 .tecnologias {
-    flex: 1; 
     display: flex;
     flex-wrap: wrap; 
     gap: 16px;
